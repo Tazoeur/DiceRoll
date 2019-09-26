@@ -1,0 +1,19 @@
+name : "Dice Roll"
+version : "1.0"
+author : "Guillaume Latour <g0latour@gmail.com>"
+about : "Simulate one or multiple dice roll"
+args:
+  - faces :
+      short : f
+      long : faces
+      value_name : faces
+      takes_value : true
+      default_value : "6"
+      help : "Set the number of faces of a dice"
+  - NUMBER :
+      short : "n"
+      long : number
+      value_name : number
+      takes_value : true
+      default_value : "1"
+      help : "The number of dice that needs to be rolled"
